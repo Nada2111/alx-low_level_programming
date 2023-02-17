@@ -3,6 +3,7 @@
 /**
 * main - Entry point You should produce the exact same output as in the example
 * prints the size of various types on the computer it is compiled and run on
+* Warnings are allowed
 * Return: Always 0 (Success)
 */
 
