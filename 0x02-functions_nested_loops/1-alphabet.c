@@ -1,7 +1,10 @@
 #include "main.h"
 int main ()
 {
-	char ch = 'a' ;
-	while (ch <= 'z')
-		return = (0);
-}	
+	char c;
+	for (c ='a' ; c <='z' ; c++)
+	{
+		_putchar(c);
+	}
+	_putchar ('\n');
+}
