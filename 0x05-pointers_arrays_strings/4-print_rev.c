@@ -7,13 +7,18 @@
  */
 void print_rev(char *s)
 {
-	  int i, len, temp;
-  len = strlen(str1);
+	    int i, j, count = 0;
+    while (str[count] != '\0') {
+        count++;
+    }
+    j = count - 1;
+    // reversing the string by swapping
+    for (i = 0; i < count; i++) {
+        rev[i] = str[j];
+        j--;
+    }
+		_putchar(*s);
+			_putchar('\n');
+}
 
-  for (i = 0; i < len/2; i++)
-  {
-   temp = str1[i];
-   str1[i] = str1[len - i - 1];
-   str1[len - i - 1] = temp;
-  }
- }
+
