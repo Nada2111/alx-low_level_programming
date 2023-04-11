@@ -3,7 +3,7 @@
  * set_bit - Sets the value of a bit at a given index to 1.
  * @n : num
  * @index : index
- *Return : 1 if it worked, or -1 if an error occurred
+ *Return: 1 if it worked, or -1 if an error occurred
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
